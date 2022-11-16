@@ -106,7 +106,7 @@ md =MNIST_Dataloader()
 
 tt =md.convert_data(stat='test')
 
-tx = tt[334]
+tx = tt[3354]
 
 
 tr = np.array(tx,dtype = np.uint8)
